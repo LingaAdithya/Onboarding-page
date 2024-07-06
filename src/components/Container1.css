@@ -1,0 +1,205 @@
+.menu-product {
+  position: relative;
+  line-height: 27px;
+}
+.menu-product-card-images-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.your-menu-will {
+  position: relative;
+  font-size: var(--font-size-sm-4);
+  line-height: 23px;
+  color: var(--color-silver);
+}
+.frame-parent6,
+.frame-wrapper5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent6 {
+  align-self: stretch;
+  gap: var(--gap-10xs-1);
+}
+.frame-wrapper5 {
+  width: 379px;
+  padding: var(--padding-10xs-2) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 49px);
+}
+.image-64-icon {
+  height: 29px;
+  width: 29px;
+  position: relative;
+  border-radius: 4.47px;
+  object-fit: cover;
+}
+.container-60-inner,
+.frame-parent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent5 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.container-60-inner {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.image-68-icon {
+  height: 12.3px;
+  width: 13.4px;
+  position: relative;
+  border-radius: 4.47px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.image-68-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.drag-drop {
+  position: relative;
+  line-height: 27px;
+  flex-shrink: 0;
+}
+.frame-parent7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-7);
+}
+.eu {
+  width: 86.7px;
+  position: relative;
+  line-height: 168px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.eu-wrapper {
+  margin-top: -106.1px;
+  align-self: stretch;
+  height: 106.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-4xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.add-photos {
+  position: relative;
+  font-size: var(--font-size-sm-4);
+  line-height: 23px;
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  min-width: 71px;
+  flex-shrink: 0;
+}
+.container-50 {
+  height: 108.3px;
+  width: 110.5px;
+  background-color: var(--color-ghostwhite);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-45xl-8) var(--padding-lgi) var(--padding-xl-5)
+    var(--padding-xl);
+  box-sizing: border-box;
+}
+.container-50-wrapper {
+  width: 273px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--font-size-31xl-2);
+  color: var(--color-crimson-100);
+}
+.container-58,
+.container-60 {
+  box-shadow: 0 0 2.23px rgba(23, 26, 31, 0.12),
+    0 0 1.12px rgba(23, 26, 31, 0.07);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container-58 {
+  align-self: stretch;
+  border-radius: 2.23px;
+  align-items: flex-start;
+  padding: var(--padding-6xs-7) var(--padding-9xs) var(--padding-42xl-5)
+    var(--padding-157xl);
+  gap: var(--gap-22xl-1);
+  color: var(--color-silver);
+}
+.container-60 {
+  flex: 1;
+  border-radius: 4.47px;
+  align-items: flex-end;
+  padding: var(--padding-7xl-8) var(--padding-3xl) var(--padding-24xl-5)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  gap: var(--gap-10xl-5);
+  min-width: 443px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base-7);
+  color: var(--color-gray-200);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1050px) {
+  .frame-parent5 {
+    flex: 1;
+  }
+  .eu {
+    font-size: var(--font-size-21xl);
+    line-height: 134px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container-58 {
+    gap: var(--gap-2xl);
+    padding-left: var(--padding-69xl);
+    box-sizing: border-box;
+  }
+  .container-60 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .eu {
+    font-size: var(--font-size-11xl);
+    line-height: 100px;
+  }
+  .container-58 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .container-60 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+}

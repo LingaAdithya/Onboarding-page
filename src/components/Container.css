@@ -1,0 +1,106 @@
+.caret-left-icon {
+  width: 21.2px;
+  height: 21.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.back-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-3) 0 0;
+}
+.go-back {
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  min-width: 67px;
+}
+.button-41 {
+  border-radius: var(--br-6xs-7);
+  background-color: var(--color-white);
+  border: 1.1px solid var(--color-aliceblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-13xl) var(--padding-4xs)
+    var(--padding-14xl);
+  gap: var(--gap-6xs-7);
+}
+.next {
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  min-width: 39px;
+}
+.triangle-right-icon {
+  width: 22.3px;
+  height: 22.3px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.next-icon-container {
+  flex-direction: column;
+  padding: var(--padding-10xs-8) 0 0;
+}
+.button-42,
+.container-55,
+.next-button,
+.next-icon-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button-42 {
+  border-radius: 3.35px;
+  background-color: var(--color-crimson-100);
+  border: 1.1px solid var(--color-azure);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-25xl) var(--padding-5xs)
+    var(--padding-26xl);
+  gap: var(--gap-6xs-7);
+}
+.container-55,
+.next-button {
+  flex-direction: column;
+  padding: var(--padding-11xs-1) 0 0;
+  color: var(--color-white);
+}
+.container-55 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-2xs-1) var(--padding-298xl) var(--padding-6xs-7)
+    var(--padding-316xl);
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+  z-index: 1;
+  margin-top: -45.8px;
+  text-align: left;
+  font-size: var(--font-size-mid-9);
+  color: var(--color-silver);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1050px) {
+  .container-55 {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: var(--padding-148xl);
+    padding-right: var(--padding-139xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container-55 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
